@@ -7,6 +7,9 @@ def alphabet_soup(s):
 # Use the string to perform the function
 alphabet_soup("hello")
 alphabet_soup("hacker")
+
+ehllo
+acehkr
 ```
 
 2. Emoticon Problen
@@ -21,6 +24,9 @@ def emotify(s):
     # Remove "Nad" and replace with "›:(" instead.
     s = s.replace ("Mad", ">:(")
     #Return the modified string with s.
+
+Make me :)
+I am >:(
 ```
 
 3. Unpacking List Problem
@@ -36,7 +42,7 @@ def unpack_list(lst):
     print ("first: {},   middle: {},   last: {}". format(first, middle, last))
 
 unpack_list (lst = [1, 2, 3, 4, 5, 6])
-    return s
-    #Print the output of the function.
-print(emotify("Make me Smile"))
-print(emotify("I am Mad"))
+
+first: 1,   middle: [2, 3, 4, 5],   last: 6
+
+
